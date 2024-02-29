@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+}
+.menu{
+    display:flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.today-menu{
+    color:black;
+    padding:15px 30px;
+    padding-bottom:8px;
+}
+.menu2{
+    margin-left:700px;
+}
+.btn{
+    padding-left:30px;
+    padding-right:30px;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.addnewtask{
+    margin:0px 30px;
+    margin-bottom:10px;
+    border:1px solid rgb(226, 223, 223);
+    border-radius:8px;
+    background-color:white;
+    margin-bottom:20px;
+}
+.fa-solid{
+    color:rgb(86, 86, 218);
+    height:0px;
+    width:0px;
+    padding-left:10px;
+}
+#mytext{
+    margin:0px 30px;
+    border:none;
+    border-radius:4px;
+    width:1200px;
+    height:45px;
+    font-size:15px;
+}
+::placeholder{
+    color:rgb(86, 86, 218);
+}
+.fa-repeat{
+    padding:10px 0px;
+    padding-left:15px;
+}
+#btn{
+    margin-left:1150px;
+    padding:3px 20px;
+    border-radius:8px;
+    border:1px solid rgb(226, 223, 223);
+    background-color:rgb(86, 86, 218);
+    color:white;
+    font-size:15px;
+}
+.submit{
+    display:none;
+}
+.side-icon{
+    color:rgb(48, 47, 47);
+    font-size:17px;
+    padding-right:20px;
+}
+.container{
+    background-color: rgb(240, 237, 237);
+    height:1000px;
+    padding-top:50px;
+}
+.task-click{
+    height:40px;
+    margin-left:15px;
+}
+.task-content{
+    padding-left:30px;
+    padding-top:10px;
+}
+.complete{
+    margin:0px 30px;
+    height:38px;
+    border-radius: 8px;
+    background-color:white;
+    margin-bottom:20px;
+    z-index:2;
+}
+#menu-name{
+    color:rgb(86, 86, 218);
+    padding-top:15px;
+    padding-left:10px;
+}
+.arrow{
+    padding-left:10px;
+    padding-top:8px;
+}
+#arrow-right{
+    font-size:25px;
+    color:rgb(86, 86, 218);
+}
+.completenewtask{
+    border:1px solid rgb(226, 223, 223);
+    border-radius:8px;
+    background-color:white;
+    margin-top:10px;
+}
+.fa-trash{
+    padding-top:10px;
+    padding-left:20px;
+}

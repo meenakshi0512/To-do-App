@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width initial-scale=1.0">
+         <meta charset="UTF-8">
+         <meta name="keyword" content="to-do">
+         <title>To-do</title>
+         <link rel="stylesheet" href="to-do.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+    <div class="menu shadow">
+        <div class="menu">
+        <i class="fa-solid fa-bars today-menu"></i>
+        <div class="today-menu">
+            <b>My Day</b>
+            <p id="today-date"></p>
+        </div>
+        </div>
+        <div class="menu today-menu menu2">
+            <div class="menu">
+                <i class="fa-solid fa-arrow-down-z-a btn"></i>
+                <p class="side-icon">Sort</p>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-layer-group btn"></i>
+                <p class="side-icon">Group</p>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-lightbulb btn"></i>
+                <p class="side-icon">Suggestion</p> 
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="addnewtask shadow">
+            <i class="fa-solid fa-plus"></i>
+            <input type="text" placeholder="Add new task..." id="mytext">
+            <hr>
+            <div class="submit">
+                <i class="fa-solid fa-rotate-right"></i>
+                <button id="btn" class="shadow">Add</button>
+            </div>
+        </div> 
+        <div class="complete shadow">
+           <div class="menu">
+            <p class="arrow"><i id="arrow-right">></i></p>
+            <p id="menu-name">Completed Task</p>
+           </div>
+           <div class="completedtask submit"></div>
+        </div>
+    </div>
+    <script src="to-do.js"></script>
+    </body>
+</html>
